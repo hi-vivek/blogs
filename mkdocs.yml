@@ -2,3 +2,29 @@ site_name: Flairminds blog
 site_url: https://blogs.flairminds.com
 theme:
   name: material
+  palette:
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - search.suggest
+    - search
+    - navigation.section
+    - navigation.path
+    - navigation.footer
+    - navigation.indexes
+  nav:
+    - Blog:
+        - blog/index.md
+  plugins:
+    - blog:
+        blog_dir: blog

@@ -22,7 +22,7 @@
 2. Choose the name of the Web ACL you want to associate with a resource.
 3. On the "Associated AWS resources" tab, select "Add AWS resources."
 
-![Screenshot 2024-01-10 195232](https://github.com/Flairminds/blogs/assets/91743769/fe4008b4-c201-40cc-af71-7db4df807c3a)
+![Screenshot 2024-01-10 195426](https://github.com/Flairminds/blogs/assets/91743769/8b1c1507-948c-44dc-8252-7da5d63db37a)
 
 
 ## Step 4: Select ALB as the Resource Type
@@ -30,7 +30,7 @@
 1. Choose the resource type (ALB) and select the radio button next to the ALB you want to associate.
 2. Click "Add" to confirm the association.
 
-![Screenshot 2024-01-10 195426](https://github.com/Flairminds/blogs/assets/91743769/f477d1e4-b461-45de-81d4-7f5cabef5fab)
+![Screenshot 2024-01-10 195836](https://github.com/Flairminds/blogs/assets/91743769/80bcb8c4-13ef-42fe-a1e8-0b4b8b7c9766)
 
 
 ## Step 5: Configure Rules for the Web ACL

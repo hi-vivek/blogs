@@ -27,11 +27,13 @@ theme:
     - content.action.view
     - content.code.annotate
     - content.code.copy
+    - content.tooltips
     - navigation.section
     - navigation.path
     - navigation.footer
     - navigation.indexes
     - navigation.tracking
+    - navigation.tabs
     - search
     - search.suggest
     - search.highlight
@@ -47,6 +49,9 @@ plugins:
       blog_dir: blog
 
 extra:
+  status:
+    new: Recently added
+    deprecated: Deprecated
   Social:
     - icons: fontawesome/brands/github
       link: https://github.com/Flairminds

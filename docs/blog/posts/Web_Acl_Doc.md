@@ -1,3 +1,13 @@
+---
+title: Creating an AWS WAF IP Set and Associating it with an ALB
+date: 2024-01-11
+authors: [amanw]
+slug: Creating-an-AWS-WAF-IP-Set-and-Associating-it-with-an-ALB
+description: >
+  Guide to Creating an AWS WAF IP Set and Associating it with an ALB
+categories:
+  - DevOps
+---
 # Creating an AWS WAF IP Set and Associating it with an ALB
 
 ## Step 1: Create an IP Set

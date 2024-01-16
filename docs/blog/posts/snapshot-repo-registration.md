@@ -1,3 +1,13 @@
+---
+title: Creating Index Snapshots in Amazon OpenSearch Service
+date: 2024-01-11
+authors: [amanw]
+slug: Creating-Index-Snapshots-in-Amazon-OpenSearch-Service
+description: >
+  Guide to Creating Index Snapshots in Amazon OpenSearch Service
+categories:
+  - DevOps
+---
 # Document: Creating Index Snapshots in Amazon OpenSearch Service
 
 ## Overview

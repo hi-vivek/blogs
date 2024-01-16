@@ -47,6 +47,8 @@ nav:
 plugins:
   - blog:
       blog_dir: blog
+  - minify:
+      minify_html: true
 
 extra:
   status:

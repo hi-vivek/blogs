@@ -17,6 +17,8 @@ categories:
 
 ![Screenshot 2024-01-10 195232](https://github.com/Flairminds/blogs/assets/91743769/52a0d11d-7123-4c30-a3a2-1c122f93c4b5)
 
+<!-- more -->
+
 ## Step 2: Create IP Set with Allowed or Disallowed IPs
 
 1. In the navigation pane, select "IP sets."

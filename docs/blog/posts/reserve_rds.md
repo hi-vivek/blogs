@@ -15,6 +15,7 @@ categories:
 Visit the AWS Management Console and log in to your AWS account.
 ![Screenshot 2024-01-11 133642](https://github.com/Flairminds/blogs/assets/91743769/017f5d9b-dc82-401c-ac7e-f221dbd936f2)
 
+<!-- more -->
 
 ## Step 2: Navigate to the Amazon RDS Dashboard
 

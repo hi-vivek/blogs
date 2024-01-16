@@ -14,6 +14,8 @@ categories:
 
 Snapshots in Amazon OpenSearch Service are essential backups of a cluster's indexes and state. This includes cluster settings, node information, index settings, and shard allocation. Snapshots come in two forms: Automated and Manual.
 
+<!-- more -->
+
 ### Automated Snapshots
 
 Automated snapshots are solely for cluster recovery and are stored in a preconfigured Amazon S3 bucket at no extra cost. They are crucial for restoring a domain in cases of red cluster status or data loss. The frequency of automated snapshots varies based on the OpenSearch or Elasticsearch version running on the domain.

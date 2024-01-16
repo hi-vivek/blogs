@@ -1,27 +1,42 @@
+# Project Information
 site_name: Flairminds blog
 site_url: https://blogs.flairminds.com
+site_description: >-
+  Engineering blogs and guides from Flairminds Software Pvt. Ltd.
+
+# Repository
+repo_name: Flairminds/blogs
+repo_url: https://github.com/Flairminds/blogs
+
 theme:
   name: material
   palette:
-
     # Palette toggle for light mode
     - scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - search.suggest
-    - search
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
     - navigation.section
     - navigation.path
     - navigation.footer
     - navigation.indexes
+    - navigation.tracking
+    - search
+    - search.suggest
+    - search.highlight
+    - search.share
+    - toc.follow
   nav:
     - Blog:
         - blog/index.md

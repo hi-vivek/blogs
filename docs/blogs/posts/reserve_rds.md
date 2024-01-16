@@ -1,3 +1,13 @@
+---
+title: Reserving an Amazon RDS DB Instance in AWS
+date: 2024-01-11
+authors: [amanw]
+slug: Reserving-an-Amazon-RDS-DB-Instance-in-AWS
+description: >
+  Guide to reserve your rds instance for cost saving
+categories:
+  - DevOps
+---
 # Reserving an Amazon RDS DB Instance in AWS
 
 ## Step 1: Log in to the AWS Management Console

@@ -19,6 +19,8 @@ tags:
 
 In the realm of cloud computing, efficient resource management is paramount, and AWS (Amazon Web Services) offers various tools to help users optimize costs. One such crucial aspect is the reservation of Amazon RDS (Relational Database Service) DB instances. This blog post will guide you through the process of reserving an Amazon RDS DB instance in AWS, shedding light on the importance of cost-saving measures in the software engineering landscape.
 
+<!-- more -->
+
 ## Problem Statement
 
 Cloud usage costs can escalate rapidly, and without proper management, organizations may find themselves facing unexpected bills. The challenge lies in striking a balance between ensuring the availability of required resources and controlling expenses. In this context, the unoptimized use of Amazon RDS DB instances can significantly contribute to inflated costs. This blog post addresses the need for strategic reservation of these instances to achieve substantial cost savings.

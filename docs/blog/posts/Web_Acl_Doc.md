@@ -19,6 +19,8 @@ tags:
 
 In the dynamic landscape of web applications, security is a top priority. AWS provides an effective solution through the Web Application Firewall (WAF), allowing users to control and mitigate potential threats. This blog post guides you through the process of creating an AWS WAF IP set and associating it with an Application Load Balancer (ALB), enhancing the security posture of your applications.
 
+<!-- more -->
+
 ## Problem Statement
 
 Web applications are susceptible to various cyber threats, including malicious IP addresses attempting to exploit vulnerabilities. AWS WAF empowers developers and administrators to implement fine-grained access controls, safeguarding web applications from potential attacks. The challenge lies in configuring AWS WAF to effectively filter and manage incoming traffic, specifically targeting an ALB.

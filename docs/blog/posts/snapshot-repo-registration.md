@@ -105,7 +105,7 @@ Here's an example:
 ```
 ### Permissions
 To register the snapshot repository, you need the ability to pass **TheSnapshotRole** to OpenSearch Service and access to the **es:ESHttpPut** action. Attach the following policy to the IAM role whose credentials are used to sign the request:
- ```json
+```json
  {
   "Version": "2012-10-17",
   "Statement": [

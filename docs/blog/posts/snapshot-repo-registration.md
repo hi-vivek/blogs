@@ -7,6 +7,11 @@ description: >
   Guide to Creating Index Snapshots in Amazon OpenSearch Service
 categories:
   - DevOps
+tags:
+  - DevOps
+  - OpenSearch
+  - S3
+  - Backup
 ---
 # Document: Creating Index Snapshots in Amazon OpenSearch Service
 

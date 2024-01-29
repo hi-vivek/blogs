@@ -12,6 +12,7 @@ tags:
   - RDS
   - Reserve
   - Saving
+comments: true
 ---
 # Optimizing Costs in AWS: A Guide to Reserving Amazon RDS DB Instances
 

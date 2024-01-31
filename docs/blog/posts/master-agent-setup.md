@@ -1,18 +1,18 @@
-# **How to setup Jenkins master agent and slave agent on AWS ec2 Instance**
+# **Setup of jenkins master agent and slave agent on AWS ec2 instance**
 
-## <p align="center">**Jenkins Master-Agent Creation**
+## Introduction
+In the realm of continuous integration and deployment, Jenkins stands as a powerful automation tool that streamlines the software development process. By leveraging Jenkins Master and Slave agents, you can distribute workloads across multiple nodes, optimizing performance and scalability. This step-by-step guide is designed to walk you through the process of setting up Jenkins Master and Slave agents on AWS EC2 instances.
 
-### Create a security group that allows inbound traffic like below and in outbound traffic allow all traffic.
+## Problem Statement
+Many software development teams face challenges in optimizing their continuous integration and deployment workflows. This guide aims to address the complexities involved in setting up Jenkins Master and Slave agents on AWS EC2 instances, providing solutions for efficient and scalable automation in cloud-based environments.
 
-![image](https://github.com/Flairminds/blogs/assets/135031436/0f77141e-095f-49b8-a471-1f0497e087c0)
+## Prerequisites
+- Launch 2 AWS ec2 instances for jenkins master and slave agent.
+- Create a security group that allows inbound traffic from ssh, http, https, and custom tcp from port 8080 and apply this to both ec2 instances.
 
-![image](https://github.com/Flairminds/blogs/assets/135031436/56230aa6-3d8f-45f4-9b70-8d10bcd1859c)
+## **Jenkins Master-Agent Creation**
 
-### Launch ec2 instance of Jenkins master agent by selecting the same security group and connect it to putty or git bash.
-
-![image](https://github.com/Flairminds/blogs/assets/135031436/81a06926-4728-484b-b931-07a554908305)
-
-### Steps for installing jenkins
+### Step 1: Installation of Jenkins
 
 1. Ensure that your software packages are up to date on your instance by using the following command to perform a quick software update:
    ```bash
@@ -50,7 +50,7 @@
 ![image](https://github.com/Flairminds/blogs/assets/135031436/f56a8209-c87e-4db4-bfb6-d5fd10ce628e)
 
 
-### Configuring Jenkins to create a master agent on ec2
+### Step 2: Configuring Jenkins to create a master agent on ec2
 
 1. Connect to http://<your\_server\_public\_DNS>:8080 from your browser. You will be able to access Jenkins through its management interface:
 
@@ -70,39 +70,39 @@
 
 ![image](https://github.com/Flairminds/blogs/assets/135031436/06be932e-b0e9-475d-be76-9701c25f5fdd)
 
-### Verify your master agent as build-in-node and it is in synched
+### Step 3: Verify your master agent as build-in-node and it is in synched
 
 ![image](https://github.com/Flairminds/blogs/assets/135031436/2810a64b-5e39-4cd3-99a4-743ae01afcb5)
 
-## <p align="center">**Jenkins Slave-Agent Creation**</p>
+## **Jenkins Slave-Agent Creation**
 
-### Launch ec2 instance of Jenkins master agent by selecting the same security group and connect it to putty or git bash.
+### Step 4: [Refer this step in order to install jenkins](#Step-1:-Installation-of-Jenkins)
 
-![image](https://github.com/Flairminds/blogs/assets/135031436/9dcb3973-8102-49f1-a33d-d89bc8ed933d)
+### Step 5: Create a Node.
 
-[Refer this step in order to install jenkins](#Steps-for-installing-jenkins)
-
-### Under manage Jenkins -> Nodes -> New node
+Go under manage Jenkins section from dashboard -> Select Nodes -> Create a new node and give it a name and choose as Permanent Type.
 
 ![image](https://github.com/Flairminds/blogs/assets/135031436/5bbd6f78-13cd-41c0-99f0-928a259e092b)
 
 ![image](https://github.com/Flairminds/blogs/assets/135031436/9db58f00-62ac-4bc7-ab23-3b2d902ac8cc)
 
-### Give host as Public ip of your slave ec2 instance and in credentials click on Add.
+### Step 6: Configuring Node
+
+1. Give host as Public ip of your slave ec2 instance and in credentials click on Add.
 
 ![image](https://github.com/Flairminds/blogs/assets/135031436/0f620c53-f091-4c9f-9d8e-be546229d444)
 
 ![image](https://github.com/Flairminds/blogs/assets/135031436/584b9e18-5bd4-4a07-a193-1df0f68429eb)
 
-### Enter private key of slave-agent ec2
+2. Enter private key of slave-agent ec2
 
 ![image](https://github.com/Flairminds/blogs/assets/135031436/5e00d5d0-a390-4fac-afa7-59477ecd5d12)
 
-### In host key verification strategy select non verifying.
+3. In host key verification strategy select non verifying.
 
-### Save.
+4. Save.
 
-### You will see that your agent will be in sync .
+### Step 7: You will see that your agent will be in sync .
 
 ![image](https://github.com/Flairminds/blogs/assets/135031436/1890227e-bbc7-4c97-b45b-b63ea865aea4)
 

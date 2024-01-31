@@ -1,3 +1,17 @@
+---
+title: Flyway Migration Documentation
+date: 2024-01-30
+authors: [amanw]
+slug: Flyway-Migration-Documentation
+description: >
+  Guide to Flyway migration and configuration
+categories:
+  - DevOps
+tags:
+  - DevOps
+  - Database
+  - Flyway
+---
 # Flyway Migration Documentation
 
 ## Overview
@@ -5,6 +19,8 @@
 The Flyway migration process involves configuring Flyway with database connection details, creating an initial migration script (`V1__Create_person_table.sql`), and executing the migration using a Docker command. This applies defined changes to the database schema.
 
 Verification is performed through a separate Docker run using the `info` command, displaying the current schema version and migration history. This systematic approach ensures organized and version-controlled database schema evolution.
+
+<!-- more -->
 
 ## Prerequisites
 

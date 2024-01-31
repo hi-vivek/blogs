@@ -12,7 +12,7 @@ Many software development teams face challenges in optimizing their continuous i
 
 ## **Jenkins Master-Agent Creation**
 
-### Step 1 Installation of Jenkins
+### Step 1: Installation of Jenkins
 
 1. Ensure that your software packages are up to date on your instance by using the following command to perform a quick software update:
    ```bash
@@ -76,7 +76,7 @@ Many software development teams face challenges in optimizing their continuous i
 
 ## **Jenkins Slave-Agent Creation**
 
-### Step 4: [Refer this step in order to install jenkins](#step-1-installation-of-jenkins)
+### Step 4: [Refer this step in order to install jenkins](#step-1:-installation-of-jenkins)
 
 ### Step 5: Create a Node.
 

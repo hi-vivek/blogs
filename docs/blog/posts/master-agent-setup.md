@@ -76,7 +76,7 @@ Many software development teams face challenges in optimizing their continuous i
 
 ## **Jenkins Slave-Agent Creation**
 
-### Step 4: [Refer this step in order to install jenkins](#step-1:-installation-of-jenkins)
+### Step 4: [Refer this step in order to install jenkins](#step-1-installation-of-jenkins)
 
 ### Step 5: Create a Node.
 

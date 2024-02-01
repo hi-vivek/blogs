@@ -1,3 +1,18 @@
+---
+title: Setup of Jenkins Master and Slave Agent on AWS EC2
+date: 2024-02-01
+authors: [suraj]
+slug: Setup-of-Jenkins-Master-and-Slave-Agent-on-AWS-EC2
+description: >
+  Guide to creation and setup of jenkins master and slave agent on aws ec2 instance
+categories:
+  - DevOps
+tags:
+  - DevOps
+  - CI/CD
+  - Jenkins
+  - Agents
+---
 # **Setup of jenkins master agent and slave agent on AWS ec2 instance**
 
 ## Introduction

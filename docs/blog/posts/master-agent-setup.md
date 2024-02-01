@@ -76,17 +76,17 @@ Many software development teams face challenges in optimizing their continuous i
 
 ## **Jenkins Slave-Agent Creation**
 
-### Step 4: [Refer this step in order to install jenkins](#step-1-installation-of-jenkins)
+### Step 1: [Refer this step in order to install jenkins](#step-1-installation-of-jenkins)
 
-### Step 5: Create a Node.
+### Step 2: Create a Node.
 
-Go under manage Jenkins section from dashboard -> Select Nodes -> Create a new node and give it a name and choose as Permanent Type.
+- Go under manage Jenkins section from dashboard -> Select Nodes -> Create a new node and give it a name and choose as Permanent Type.
 
 ![image](https://github.com/Flairminds/blogs/assets/135031436/5bbd6f78-13cd-41c0-99f0-928a259e092b)
 
 ![image](https://github.com/Flairminds/blogs/assets/135031436/9db58f00-62ac-4bc7-ab23-3b2d902ac8cc)
 
-### Step 6: Configuring Node
+### Step 3: Configuring Node
 
 1. Give host as Public ip of your slave ec2 instance and in credentials click on Add.
 
@@ -102,8 +102,10 @@ Go under manage Jenkins section from dashboard -> Select Nodes -> Create a new n
 
 4. Save.
 
-### Step 7: You will see that your agent will be in sync .
+### Step 4: You will see that your agent will be in sync .
 
 ![image](https://github.com/Flairminds/blogs/assets/135031436/1890227e-bbc7-4c97-b45b-b63ea865aea4)
 
+## Conclusion:
+In wrapping up, you've successfully established a robust Jenkins infrastructure on AWS EC2, empowering your team with efficient and scalable CI/CD capabilities. With Master and Slave agents configured, you're poised to accelerate development cycles and enhance overall software delivery. Cheers to a streamlined and automated workflow!
 
